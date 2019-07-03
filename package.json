@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "v8-app",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "v8 app forked GatsbyJS",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Karthik <karthik97live@gmail.com>",
   "dependencies": {
     "gatsby": "^2.10.4",
     "gatsby-image": "^2.2.3",
@@ -20,7 +20,8 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "rebass": "^3.1.1",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "styled-theming": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
