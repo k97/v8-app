@@ -13,7 +13,7 @@ import Header from "./header/header"
 import "./layout.scss"
 
 import { ThemeProvider } from 'styled-components'
-import theme from '../theme/theme'
+import { siteTheme } from '../theme/theme'
 
 import { Button } from 'rebass'
 
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={ siteTheme }>
         <Fragment>
           <Header siteTitle={data.site.siteMetadata.title} />
           <div
@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
           ><Button variant='outline'>Read more</Button>
             <main>{children}</main>
             {/* <footer>
-              © {new Date().getFullYear()}, 
+              © {new Date().getFullYear()},
               {` `}
               <a href="https://www.gatsbyjs.org">Gatsby</a>
             </footer> */}
